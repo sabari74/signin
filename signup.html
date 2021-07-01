@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign-Up</title>
+    <link type="text/css" rel="stylesheet" href="./signup.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</head>
+<body>
+        <body class="parent"> 
+            <img src="https://previews.123rf.com/images/sonjachnyj/sonjachnyj1708/sonjachnyj170800484/84170863-stylish-young-girl-working-analytics-holding-pen-on-craft-background-with-laptop-and-papers-flat-lay.jpg" type="jpeg" class="pic"/>
+            <div class="container">
+                <h1 class="head">Sign Up</h1>
+                <div>
+                    <input type="text" onkeyup="handleinput()" placeholder="  Enter your name"value="" class="input" id="name"/>
+                    <label style="color: red; display: none;"id="nameerror" ><p class="name">This field is required </p></label>
+                    <label style="color: red; display: none;"id="namecounterror" >Name should be min 3 characters </label>
+                </div><br>
+                <div>
+                    <input type="email" placeholder= "  Email" class="input" value="" id="email" onchange=" Validateemail()"/>
+                    <label id="emailerror" style="display: none"><p class="name">This field is required </p></label>
+                </div><br>
+                <div>
+                    <input type="password" placeholder="  Enter Password" class="input" value="" id="password" onchange="Validatepassword()"/>
+                    <label id="passworderror" style="display: none"><p class="name">This field is required </p></label>
+                </div><br>
+                <div>
+                    <input type="password" placeholder="   Retype Password" class="input" value="" id="cpassword"/>
+                    <label id="passworderror" style="display: none">This field is required </label>
+                </div><br>
+                <div>
+                    <input type="submit" value="Sign Up" class="button" onclick="validateform()"/>
+                </div><br>
+                <div>
+                    <p class="foot2">Or</p>
+                </div><br>
+                <div class="foot">
+                    <a target="_blank" href="https://www.facebook.com/"><input type="submit" value="Facebook" class="button1"/></a>
+                    <a target="_blank" href="https://accounts.google.com/servicelogin"><input type="submit" value="Google" class="btn button2"/></a>
+                </div><br>
+            </div>
+         </body>
+
+         </html>
+         <script>
+            function handleinput(){
+                var name = document.getElementById('name').value;
+                if(name){
+                    if(name.length > 2){
+                       document.getElementById('nameerror').style="display: none; color:red";
+                       document.getElementById('namecounterror').style= "display: none; color:red";
+                       
+                    }
+                    else{
+                       document.getElementById('nameerror').style="display: none; color:red";
+                       document.getElementById('namecounterror').style= "display: block; color:red";
+                    }
+             }else{
+               document.getElementById('name').style="border:1px solid red";
+               document.getElementById('nameerror').style= "display: block; color:red";
+            }
+          
+        }
+        function validateform(){
+            var name = document.getElementById('name').value;
+                if(name){
+                        document.getElementById('name');
+                       document.getElementById('nameerror').style="display: none";
+                    }
+             else{
+               document.getElementById('name').style="border:1px solid red";
+               document.getElementById('nameerror').style= "display: block  color:red";
+            }
+        var email= document.getElementById('email').value;
+         if(email){
+             document.getElementById('email');
+             document.getElementById('emailerror').style= "display:none ";
+         }
+         else{
+            document.getElementById('email').style="border:1px solid red";
+            document.getElementById('emailerror').style= "display: block color:red";
+         }
+         if(email == "sabarimani156@gmail.com" && password == "Hello@123 "){
+             location.href = "file:///H:/WEB/Task-2/guvi/Addition.html";
+         }
+
+         function Validateemail()
+        { 
+            var email=document.getElementById("email").value;
+            var email1=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if(email){
+            document.getElementById('email').style="border:3px solid green";
+            emailerror.innerHTML = "";    
+            }
+            if(!email){
+            document.getElementById("email").style="border:3px solid red";
+            emailerror.innerHTML ="Please enter your email id";
+            return;
+            }
+            if(!(email.match(emailcounterror))){
+            document.getElementById("email").style="border:3px solid red";
+            emailerror.innerHTML ="Please check the email id";
+            return;
+            } 
+            if((email.match(emailcounterror))){
+            document.getElementById("email").style="border:3px solid green";
+            emailerror.innerHTML ="";
+            }
+        }
+        function Validatepassword()
+        { 
+            var password=document.getElementById("password").value;
+            if(password){
+                        document.getElementById('password');
+                       document.getElementById('passworderror').style="display: none";
+                    }
+             else{
+               document.getElementById('password').style="border:1px solid red";
+               document.getElementById('passworderror').style= "display: block  color:red";
+            }
+        }
+        
+        }
+          </script>
+ 
+    

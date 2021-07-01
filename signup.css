@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background: linear-gradient(to right,  #ec38bc, #7303c0, #03001e); 
+}
+.container{
+ background-color:whitesmoke;
+width: 450px;
+height: 500px;
+text-align:center;
+position: relative;
+top: 50px;
+float: right;
+right: 240px;
+}
+.pic{
+    width: 450px;
+    height: 500px;
+    float: left;
+    top: 50px;
+    position: relative;
+    left: 230px;
+}
+.head{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input{
+    position:relative;
+    top: 32px;
+    width:282px;
+    height: 32px;
+    background-color:lightgrey;
+   border-block:none;
+   border-left: none;
+   border-right: none;
+margin-top: 6px;
+
+}
+.box{
+    padding-right:177px;
+    padding-top: 12px;
+}
+.button{
+    position:relative;
+    top: 55px;
+    width:282px;
+    height: 48px;
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+   color: white;
+   font-size: 18px;
+   border-block:none;
+   border-left: none;
+   border-right: none;
+   cursor: pointer;
+}
+.foot2{
+    position: relative;
+    top: 50px;
+}
+.button1{
+ background-color:#0366fc;
+width: 145px;
+height: 35px;
+text-align:center;
+position: relative;
+top: 35px;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+border-block:none;
+border-left: none;
+border-right: none;
+cursor: pointer;
+}
+
+.button2{
+background-color:whitesmoke;
+width: 145px;
+height: 35px;
+text-align:center;
+position: relative;
+top: 35px;
+font-family: 'Times New Roman', Times, serif;
+border-color: none;
+color: black;
+border-block:none;
+border-left: none;
+border-right: none;
+border: 2px solid;
+cursor: pointer;
+border-color: #0366fc;
+}
+.foot1{
+    position:relative;
+    left: 15x;
+    top: 20px;
+}
+.box{
+    top: 20px;
+    position: relative;
+}
+input[type="submit"]:hover,
+ input[type="submit"]:focus
+ {
+     background:green;
+ }
+ .name{
+     position: relative;
+     top: 32px;
+     color: red;
+     right:70px;
+ }
+ .foot{
+     position: relative;
+     top: 25px;
+ }
+
+ 

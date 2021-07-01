@@ -1,0 +1,74 @@
+.parent{
+    background:linear-gradient(to bottom, #D0274D, #303CA6);
+}
+.container{
+    background-color:whitesmoke;
+width: 350px;
+height: 500px;
+text-align:center;
+position: relative;
+left: 500px;
+top: 50px;
+border-radius: 3px
+}
+.head{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input{
+    position:relative;
+    top: 18px;
+    width:282px;
+    height: 48px;
+    background-color:lightgrey;
+   border-block:none;
+   border-left: none;
+   border-right: none;
+}
+.box{
+    padding-right:177px;
+    padding-top: 12px;
+}
+.button{
+    position:relative;
+    top: 18px;
+    width:282px;
+    height: 48px;
+   background-color:#D0274D;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+   color: white;
+}
+.foot{
+    position: relative;
+    top: 13px;
+}
+.button1{
+    background-color:whitesmoke;
+width: 140px;
+height: 25px;
+text-align:center;
+position: relative;
+top: 2px;
+color: blue;
+font-family: 'Times New Roman', Times, serif;
+border-color: none;
+}
+.button2{
+    background-color:rgb(255, 255, 255);
+width: 145px;
+height: 25px;
+text-align:center;
+position: relative;
+top: 2px;
+font-family: 'Times New Roman', Times, serif;
+border-color: none;
+color: black;
+}
+.foot1{
+    position:relative;
+    left: 15x;
+    top: 15px;
+}

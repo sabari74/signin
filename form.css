@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background: linear-gradient(to right,  #ec38bc, #7303c0, #03001e); 
+}
+.container{
+ background-color:whitesmoke;
+width: 450px;
+height: 500px;
+text-align:center;
+position: relative;
+top: 50px;
+right: 150px;
+left: 450px;
+}
+.head{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input{
+    position:relative;
+    top: 38px;
+    width:282px;
+    height: 32px;
+    background-color:lightgrey;
+   border-block:none;
+   border-left: none;
+   border-right: none;
+}
+.input1{
+    position:relative;
+    top: 50px;
+    width:282px;
+    height: 32px;
+    background-color:lightgrey;
+   border-block:none;
+   border-left: none;
+   border-right: none;
+}
+.box{
+    padding-right:177px;
+    padding-top: 12px;
+}
+.button{
+    position:relative;
+    top: 50px;
+    width:282px;
+    height: 48px;
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+   color: white;
+   font-size: 18px;
+   border-block:none;
+   border-left: none;
+   border-right: none;
+   cursor: pointer;
+   border-radius: 30px;
+}
+
+.p{
+    color: red;
+    top: 43px;
+    position: relative;
+    padding-right: 150px;
+}
+.p1{
+    color: red;
+    top: 55px;
+    position: relative;
+    padding-right: 150px;
+}
+.foot{
+    position: relative;
+    top: 30px;
+}
+
+.foot1{
+    position:relative;
+    left: 15x;
+    top: 60px;
+}
+.box{
+    top:40px;
+    position: relative;
+}
+.social2{
+        border: 1px solid #DDDDDD;
+        border-radius: 50%;
+        background-color: #db4a39;
+        color: white;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5px;
+        height: 40px;
+        width: 40px;
+        margin: 20px 0;
+        position: relative;
+        top: 60px;
+}
+.social1{
+    border: 1px solid #DDDDDD;
+    margin: 20px 0;
+    position: relative;
+    top: 60px;
+    border-radius: 50%;
+    background-color: #3b5998;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+}
+.social3{
+    border: 1px solid #DDDDDD;
+    margin: 20px 0;
+    position: relative;
+    top: 60px;
+    border-radius: 50%;
+    background-color: #0e76a8;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+}
+.h2{
+top:16px;
+left: 10px;
+position: relative;
+}

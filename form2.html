@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link type="text/css" rel="stylesheet" href="form.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+     <body class="parent"> 
+        <div class="container">
+            <h1 class="head">LOGIN</h1><br>
+            <h2 class="h2">Welcome Back !</h2>
+            <div>
+                <input type="email" placeholder= "  Email" class="input" value="" id="email"/>
+                <label id="emailerror" style="display: none" ><p class="p">This field is required</p> </label>
+            </div><br>
+            <div>
+                <input type="password" placeholder="  Enter Password" class="input1" value="" id="password"/>
+                <label id="passworderror" style="display: none"><p class="p1">This field is required</p></label>
+            </div><br>
+            <div class="box"> <input type="checkbox"/>  Remember me
+            </div><br>
+            <div>
+                <a target="_blank" href="file:///H:/WEB/Task-2/guvi/Addition.html">   <input type="submit"  value="LOGIN" class="button" onclick="formname()"/>
+            </div><br>
+            <div>
+            <p class="foot1">Not a member? <a href="H:\WEB\Task-2\guvi\signup.html">Sign up now</a>
+            </div>
+            <div >
+				<a href="https://www.facebook.com/" class="social1"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://accounts.google.com/servicelogin" class="social2"><i class="fab fa-google-plus-g"></i></a>
+				<a href="https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin" class="social3"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+        </div>
+        
+     </body>
+</html>
+<script>
+   function formname() {
+        var email= document.getElementById('email').value;
+         if(email){
+             document.getElementById('email');
+             document.getElementById('emailerror').style= "display:none ";
+         }
+         else{
+            document.getElementById('email').style="border:1px solid red";
+            document.getElementById('emailerror').style= "display: block color:red";
+         }
+         var password= document.getElementById('password').value;
+         if(password){
+             document.getElementById('password');
+             document.getElementById('passworderror').style= "display:none color:red";
+         }
+         else{
+            document.getElementById('password').style="border:1px solid red";
+            document.getElementById('passworderror').style= "display: block color:red";
+         }
+         console.log('my email',email);
+         console.log('my password',password);
+         
+
+          
+    }
+</script>
